@@ -33,7 +33,7 @@
 
                 return new Response
                 {
-                    IsSuccess = false,
+                    IsSuccess = true,
                     Result = list,
                 };
             }

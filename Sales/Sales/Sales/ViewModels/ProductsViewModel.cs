@@ -30,6 +30,9 @@ namespace Sales.ViewModels
 
         private async void LoadProducts()
         {
+
+            //-https://salesapi20200312045220.azurewebsites.net
+            //-https://salesbackend20200312025808.azurewebsites.net/
             var response = await this.apiService.GetList<Product>("https://salesapi20200312045220.azurewebsites.net", "/api","/Products");
             if (!response.IsSuccess)
             {
