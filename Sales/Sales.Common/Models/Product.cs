@@ -21,5 +21,7 @@ namespace Sales.Common.Models
         {
             return this.Description;
         }
+
+
     }
 }
