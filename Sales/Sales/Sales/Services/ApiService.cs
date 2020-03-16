@@ -7,6 +7,7 @@
     using Newtonsoft.Json;
     using Plugin.Connectivity;
     using Sales.Common.Models;
+    using Sales.Helpers;
     
 
     public class ApiService
@@ -19,7 +20,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Please turn on your internet settings"//Languages.InternentSettings,
+                    Message = Languages.TurnOnInternet,
                 };
             }
 
@@ -29,7 +30,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "No Internet Connection"//Languages.NoConnection,
+                    Message = Languages.Nointernet,
                 };
             }
             return new Response
