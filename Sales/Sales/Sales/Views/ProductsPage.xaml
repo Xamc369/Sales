@@ -4,7 +4,7 @@
              xmlns:i18n="clr-namespace:Sales.Helpers"
              x:Class="Sales.Views.ProductsPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             Title="{i18n:Translate Products}">
+             Title="{i18n:Translate Productos}">
     <ContentPage.Content>
         <StackLayout
             BindingContext="{Binding Products}"

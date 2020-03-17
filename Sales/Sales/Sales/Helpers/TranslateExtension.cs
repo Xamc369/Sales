@@ -22,7 +22,7 @@
 
         public TranslateExtension()
         {
-            ci = DependencyService.Get<ILocalize>().GetCultureInfo();
+            ci = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
 
         }
         public string Text { get; set; }

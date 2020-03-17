@@ -11,7 +11,7 @@ namespace Sales.iOS.Implementations
 
     public class Localize : ILocalize
     {
-        public CultureInfo GetCultureInfo()
+        public CultureInfo GetCurrentCultureInfo()
         {
             var netLanguage = "en";
             if(NSLocale.PreferredLanguages.Length > 0)

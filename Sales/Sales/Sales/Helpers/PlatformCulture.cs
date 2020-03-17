@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Sales.Helpers
 {
+    using System;
     public class PlatformCulture
     {
         public PlatformCulture(string platformCultureString)

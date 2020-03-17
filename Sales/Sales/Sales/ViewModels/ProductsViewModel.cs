@@ -52,7 +52,8 @@ namespace Sales.ViewModels
                 return;
             }
 
-            //-https://salesapi20200312045220.azurewebsites.net
+            //-https://salesapi20200312045220.azurewebsites.net (CADENA DEL API)
+            //-https://salesbackend20200312025808.azurewebsites.net/Products(CADENA DEL BACKEND)
 
             var url = Application.Current.Resources["UrlAPI"].ToString();
             var prefix = Application.Current.Resources["UrlPrefix"].ToString();

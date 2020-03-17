@@ -8,7 +8,7 @@ namespace Sales.Droid.Implementations
     using Interfaces;
     public class Localize: ILocalize
     {
-        public CultureInfo GetCultureInfo()
+        public CultureInfo GetCurrentCultureInfo()
         {
             var netLanguage = "en";
             var androidLocale = Java.Util.Locale.Default;
